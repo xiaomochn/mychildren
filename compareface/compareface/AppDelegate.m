@@ -25,9 +25,6 @@
     // Override point for customization after application launch.
     {
         [ShareSDK registerApp:@"877db0224436"];//字符串api20为您的ShareSDK的AppKey
-      
-     
-        
         //添加QQ空间应用  注册网址  http://connect.qq.com/intro/login/
         [ShareSDK connectQZoneWithAppKey:@"100371282"
                                appSecret:@"aed9b0303e3ed1e27bae87c33761161d"

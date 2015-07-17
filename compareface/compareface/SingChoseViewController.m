@@ -387,7 +387,7 @@
                 break;
                 
             case 1:
-                [resultLable setText:@"一个人怎么测配对指数"];
+                [resultLable setText:@"就一个人怎么测"];
                 break;
                 
             default:
@@ -414,23 +414,15 @@
                     }
                  
                      _score=[self getScoreWithTrueScore:(int)([[resultcoompare content][@"similarity"] doubleValue])];
-                       componentstr=[NSString stringWithFormat:@"你们看起来最像的地方是%@,你们属于%@",maxkey,[_scoredetil valueForKey:@"word"][( _score-50)/7]];
-                    if([face1[@"attribute"][@"gender"][@"value"] isEqual:face2[@"attribute"][@"gender"][@"value"]]){
-                        if ([face1[@"attribute"][@"gender"][@"value"] isEqual:@"Female"]) {
-                            componentstr =[componentstr stringByAppendingString:@"，不过俩妹子是要闹哪样"];
-                        }else {
-                            componentstr =[componentstr stringByAppendingString:@"，不过搞基可不好哦"];
-                            
-                        }
-                        _score-=50;
-                    }
+                       componentstr=[NSString stringWithFormat:@"你们看起来最像的地方是%@",maxkey];
+                   
                   
                     [resultLable setText:componentstr];
                     //                    [scoreLable dd_setNumber:@(30)];
                     
                     
                     if ((int)([[resultcoompare content][@"similarity"] doubleValue])>95) {
-                        _score+=50;
+                     
                         [resultLable setText:@"不要说你们是双胞胎哦..."];
                     }
                      [scoreLable setText:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:_score]]];
@@ -481,7 +473,6 @@
     [load startAnimating];
     [scoreLable setHidden:YES];
     UIImage *sourceImage = info[UIImagePickerControllerOriginalImage];
-    
     
     UIImage *imageToDisplay = [self fixOrientation:sourceImage];
     float scale = 1.0f;
