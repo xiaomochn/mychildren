@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:compareface.xcodeproj">
+      location = "group:/Users/qiao/Documents/xcodeworkspace/mychildren/compareface/mychildren.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
