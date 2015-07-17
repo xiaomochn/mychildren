@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>word</key>
+	<array>
+		<string>和谐型</string>
+		<string>互补型 </string>
+		<string>火星相撞型</string>
+		<string>亲人型</string>
+		<string>相像型</string>
+		<string>相似型</string>
+		<string>综合型</string>
+		<string>回应型</string>
+	</array>
+	<key>title</key>
+	<array>
+		<string>你们有着和谐型面相，有和谐面相的两个人脸上的三组数据大致相同，即额头的高度，人中的长度，下颌的长度。只拥有这个面相的你们可能并不像，但却很容易被对方吸引。</string>
+		<string>你们其中一方比较霸道，但是另一方会很顺从。互补型多会表现为男方较霸道，而女方温柔；或女方霸道，男方较为宽容。</string>
+		<string>你们性格相像，特别是脾气，都属比较火爆型，但是却能安然相处。你们通常是刀子嘴豆腐心，所以，你们能够在火星相撞下安稳的过着自己的幸福生活。
+你们性格相像，特别是脾气，都属比较火爆型，但是却能安然相处。你们通常是刀子嘴豆腐心，所以，你们能够在火星相撞下安稳的过着自己的幸福生活。
+</string>
+		<string>你们有一方看起来很像另一方的亲戚，或者家中长辈，或者小辈。这样的两人互相比较信任，特别是如果男方认为女方比较像自己的亲人，那么他们的信任度会很高。</string>
+		<string>你们面相有着细微的相像，或眉毛，或眼睛，或脸型等。别人不用仔细观察就能看出你们的相像之处。你们很容易去模仿对方。从心理学的理论来说，这叫做“变色龙效应”。</string>
+		<string>你们整体看起来很相似。你们做事一定有着某种程度上的默契，心照不宣。通常这样的两人比较能够相濡以沫。</string>
+		<string>你们相属综合型。感情稳固，且彼此都会很用心的维护这段感情。执子之手，与子偕老。</string>
+		<string>你们拥有回应型面相。你们看起来很像对方，你们的五官、脸型以及上眼睑线、上唇线和眉毛三部分的形状很相似。有着回应型面相的双方心灵相通，互为知己。</string>
+	</array>
+</dict>
+</plist>

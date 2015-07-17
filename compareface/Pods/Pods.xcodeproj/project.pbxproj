@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B36EEE75264F3B2B25C112F /* Pods-PulsingHalo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DD6070E2A1BDED97E9BA56 /* Pods-PulsingHalo-dummy.m */; };
+		0C6CB3A6F726EAD695FFAED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */; };
+		139EE88F007416BFF38A3322 /* PECropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A47D86D113FBF0C6852F48 /* PECropRectView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		15D3DEE0140A94D1DCABCBC3 /* PECropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ED53545007B31751ED28BD /* PECropViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19E1215F11EDF900682B4449 /* FaceppPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E1EE04678090E3D8619094 /* FaceppPerson.h */; };
+		1D833738E992EA9F17C5587C /* FaceppResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D35407866956E47236CD2A6 /* FaceppResult.h */; };
+		1F3518D185BCD5FF569BD98F /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C605036C3ADA65D51E32A1 /* FaceppError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		26F06CD0080FFA15D92A5708 /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4769E52D2583C4139CC33E /* FaceppResult.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2838625B2494346A5EFD2CE9 /* PEResizeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E1ABD5CF37239480859230 /* PEResizeControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29695C876B5813A03338CC94 /* FaceppFaceset.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EE975D90C2AA363911E197 /* FaceppFaceset.h */; };
+		3CE5EC6D625BFBD2EF72311A /* FaceppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 272CBFE4A979F55DF1D7F983 /* FaceppInfo.h */; };
+		401A09A754AD5D8B39EC50D5 /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BD21E2718A134FC0B75DED62 /* FaceppAPI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47A959A113EB0ED0E3E3E600 /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 52730ECD820CFAEEAEBF9196 /* FaceppDetection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		488B79D98BAE4856BAE24EED /* UIImage+PECrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2D17D7E1CBB47F26D97ABF /* UIImage+PECrop.h */; };
+		4A1B0B95F126CAAB95D7AA53 /* PECropView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF977D19D1EAD55B21F59E /* PECropView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4CE5729A9D57138AECFEEEBB /* FaceppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 663D39373D9C924FD19B1A29 /* FaceppClient.h */; };
+		4E29F1342816CBDDB482E909 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E49399ED0758F0DBB3061C3 /* QuartzCore.framework */; };
+		4F8B83A919716DF9878623B9 /* FaceppGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8F8C8237D9C77E9D4C7B59 /* FaceppGroup.h */; };
+		5295D6C2DA5C67EEDC5D2C8A /* MAOFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BEC0849F7D1843BDFFC9EB /* MAOFlipViewController.m */; };
+		568D0E343B8ECED4D39B6630 /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = F376D298609F9FCF1D5E4660 /* FaceppRecognition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		589333E0986CA6AF4ED906E4 /* Pods-FaceppSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA8229E47420416CE05794 /* Pods-FaceppSDK-dummy.m */; };
+		58D0B605A5580E7BD0F1E0CD /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B891234C25F5ECABA88B70DA /* FaceppClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		593DED8FB93ADC13A8103B52 /* PECropRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFA4180F99F89C693B4D8A1 /* PECropRectView.h */; };
+		5CA0EF850D505221D9098B2E /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C2B8914BBDF3186FD702CF /* FaceppFaceset.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6123FF3F454FCFCB64BF63A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */; };
+		6EB30DF93161731434A663FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84665C8FFA3893E821963BE3 /* UIKit.framework */; };
+		7222FCB5FB997619287EF7ED /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B956F2ED1253B631837DE10 /* FaceppInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8739AAF62B7E3CED1951A68B /* MAOFlipInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5284E9D9AF8EAD4776934760 /* MAOFlipInteraction.h */; };
+		8C29A16B009907BFD1B403B2 /* MAOPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C74DAE3A212F8C12D2AB3B9 /* MAOPanGestureRecognizer.h */; };
+		913F3DAE9A03B6A0CC296E30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */; };
+		91F999639B944055B12E39F3 /* FaceppAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0238EE03FFBABAC5B5EDEFC9 /* FaceppAPI.h */; };
+		92A1CCD769E53061B4C238E5 /* PECropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DE1E8ABFE47979F32A434F /* PECropViewController.h */; };
+		99C84CDEE214DFE02AED2CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */; };
+		99FBB904AE53A1C701919203 /* PECropView.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FB011C74B1352661C52309 /* PECropView.h */; };
+		A54AE8021A3B4992B20A3FE8 /* MAOFlipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC53A1D8956623C9A6D86D9 /* MAOFlipViewController.h */; };
+		A72A43881CEFF9E521C57E06 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F39F148697A4716459CD9D7 /* PulsingHaloLayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA7A823DFA564B9E0662DB0C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980F178E6758CDEBC80D4207 /* AVFoundation.framework */; };
+		B22C72C4216F0A670A754F69 /* FaceppGrouping.h in Headers */ = {isa = PBXBuildFile; fileRef = 78249E3374581455D5C32D70 /* FaceppGrouping.h */; };
+		B37BF6EF3C74271B9264D9A3 /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FE51A2BCA10F0C18832642 /* FaceppTrainer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B507BA014938C78358BAC94C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E49399ED0758F0DBB3061C3 /* QuartzCore.framework */; };
+		B532C64B580AEC3DFB923C74 /* FaceppError.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F70F6E0CDFD1D155509BCD /* FaceppError.h */; };
+		B5559B1E54A39ECC6C54CE6E /* FaceppDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 950989B5A281014F4CE91AE9 /* FaceppDetection.h */; };
+		B79753C4A0BB3A586DA16D42 /* UIImage+PECrop.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B18D88706EAB44B027F3 /* UIImage+PECrop.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BDFDC8584C9980489010A780 /* Pods-MAOFlipViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC79618FF919186BF7E61 /* Pods-MAOFlipViewController-dummy.m */; };
+		C5AD99BE48D0FF9B90484C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */; };
+		C823C5286ECA3B7D8E7BD28D /* PEResizeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E157480B8945C5E8C6306C3F /* PEResizeControl.h */; };
+		CAF68B86D95F9308C355B086 /* MAOFlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7896F126297CA11D7C3092DD /* MAOFlipTransition.h */; };
+		CC362A63DF801540EEF1C3F4 /* FaceppRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA823ED761D3273FC0853F1 /* FaceppRecognition.h */; };
+		D08E65509BDF5879D31B3580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */; };
+		D68AA030B601CD7791FE0192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84665C8FFA3893E821963BE3 /* UIKit.framework */; };
+		D7387A5DFFC5EBC230C5080F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 964BC2EC3EFDD85D145810BE /* Pods-dummy.m */; };
+		D954CA0B3F57DC4ABC63037F /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BB1FFBCDAF10D9885BCECA /* FaceppGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6F2CE29FF324426D6F452CF /* Pods-FlickerNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A7ED3D565F1FDC0D5EC267 /* Pods-FlickerNumber-dummy.m */; };
+		EA1A250FBBCE25A9586C1F92 /* UILabel+FlickerNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 36261120B320F589E168A1FF /* UILabel+FlickerNumber.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED6A8A786BFEEC7E4C09DFFC /* MAOFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B51224EB634FBD310092FFA /* MAOFlipTransition.m */; };
+		EDFA1E42A701A3B851CAAA38 /* MAOFlipInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = D1606B8745F67234F4A14980 /* MAOFlipInteraction.m */; };
+		F0964A0DDA21EE498B79C6AC /* MAOPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8215BE1EE1A25376413F29B2 /* MAOPanGestureRecognizer.m */; };
+		F14DE70E581BBCA935AC9049 /* FaceppTrainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CFD973864CE1218D44548B /* FaceppTrainer.h */; };
+		F2FCE93F992A8368CFE7E8EA /* UILabel+FlickerNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 567883ABC7D63F905B7324D4 /* UILabel+FlickerNumber.h */; };
+		F5D5C567D358CA083B8AF84D /* PulsingHaloLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DE54A860BBA869F6A07DBC /* PulsingHaloLayer.h */; };
+		F6DB94A75CA134532609A287 /* Pods-PEPhotoCropEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2F97BEBC22B32D0E79091 /* Pods-PEPhotoCropEditor-dummy.m */; };
+		F76D63915CC1EBF07421A85E /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8DD16CA24A6B7DB75C94A2 /* FaceppGrouping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FD83E0A60E3385B58E1AFEAC /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC7993542C91600334939E /* FaceppPerson.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13374BA5A165D43D6A0E1917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC6D2BE9866A2596EEBE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5BB50B03920F98D274B842;
+			remoteInfo = "Pods-PEPhotoCropEditor";
+		};
+		729082BC020D5349175A973D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC6D2BE9866A2596EEBE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415AB028025099703232CD53;
+			remoteInfo = "Pods-MAOFlipViewController";
+		};
+		79D3370E1084EB1FBE1DACBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC6D2BE9866A2596EEBE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117711D5E2AAEFE3CBCAF010;
+			remoteInfo = "Pods-FlickerNumber";
+		};
+		CA268C8C46812F75C3257A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC6D2BE9866A2596EEBE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABCDF4213711A36B4B1BDE3;
+			remoteInfo = "Pods-FaceppSDK";
+		};
+		D2D57812B96920240ECA3D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19EC6D2BE9866A2596EEBE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30099DB74BBF847E0359CBFA;
+			remoteInfo = "Pods-PulsingHalo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0238EE03FFBABAC5B5EDEFC9 /* FaceppAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppAPI.h; path = FaceppSDK_ARC/FaceppAPI.h; sourceTree = "<group>"; };
+		07B7938592A0463F63E653C3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		0C74DAE3A212F8C12D2AB3B9 /* MAOPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOPanGestureRecognizer.h; path = MAOFlipViewController/MAOPanGestureRecognizer.h; sourceTree = "<group>"; };
+		0F39F148697A4716459CD9D7 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PulsingHaloLayer.m; path = PulsingHalo/PulsingHaloLayer.m; sourceTree = "<group>"; };
+		0F7FB82140B099659312CA80 /* Pods-PulsingHalo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PulsingHalo-prefix.pch"; sourceTree = "<group>"; };
+		1BE15C2364ED240E1800BBF0 /* Pods-MAOFlipViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAOFlipViewController-prefix.pch"; sourceTree = "<group>"; };
+		1DF7374FB8E5F536186622C5 /* libPods-PulsingHalo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PulsingHalo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DE54A860BBA869F6A07DBC /* PulsingHaloLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PulsingHaloLayer.h; path = PulsingHalo/PulsingHaloLayer.h; sourceTree = "<group>"; };
+		22F70F6E0CDFD1D155509BCD /* FaceppError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppError.h; path = FaceppSDK_ARC/FaceppResult/FaceppError.h; sourceTree = "<group>"; };
+		24E10C2ABE3C0533C2F56FCF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C2B8914BBDF3186FD702CF /* FaceppFaceset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppFaceset.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppFaceset.m; sourceTree = "<group>"; };
+		272CBFE4A979F55DF1D7F983 /* FaceppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppInfo.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppInfo.h; sourceTree = "<group>"; };
+		2D777C9D07F29139F8591F81 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FC69A2DB3CBD4BA9C232A67 /* libPods-FaceppSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceppSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A47D86D113FBF0C6852F48 /* PECropRectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PECropRectView.m; path = Lib/PECropRectView.m; sourceTree = "<group>"; };
+		36261120B320F589E168A1FF /* UILabel+FlickerNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FlickerNumber.m"; path = "FlickerNumber/Classes/UILabel+FlickerNumber.m"; sourceTree = "<group>"; };
+		3B51224EB634FBD310092FFA /* MAOFlipTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipTransition.m; path = MAOFlipViewController/MAOFlipTransition.m; sourceTree = "<group>"; };
+		3EBA8229E47420416CE05794 /* Pods-FaceppSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaceppSDK-dummy.m"; sourceTree = "<group>"; };
+		4562B8AF425B8E0259358F40 /* Pods-PEPhotoCropEditor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PEPhotoCropEditor-Private.xcconfig"; sourceTree = "<group>"; };
+		48BB1FFBCDAF10D9885BCECA /* FaceppGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppGroup.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppGroup.m; sourceTree = "<group>"; };
+		50A77887246AA629E4E9F2F6 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		50E1EE04678090E3D8619094 /* FaceppPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppPerson.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppPerson.h; sourceTree = "<group>"; };
+		50ED53545007B31751ED28BD /* PECropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PECropViewController.m; path = Lib/PECropViewController.m; sourceTree = "<group>"; };
+		52730ECD820CFAEEAEBF9196 /* FaceppDetection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppDetection.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppDetection.m; sourceTree = "<group>"; };
+		5284E9D9AF8EAD4776934760 /* MAOFlipInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipInteraction.h; path = MAOFlipViewController/MAOFlipInteraction.h; sourceTree = "<group>"; };
+		567883ABC7D63F905B7324D4 /* UILabel+FlickerNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FlickerNumber.h"; path = "FlickerNumber/Classes/UILabel+FlickerNumber.h"; sourceTree = "<group>"; };
+		57EC7993542C91600334939E /* FaceppPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppPerson.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppPerson.m; sourceTree = "<group>"; };
+		58072FA0CD785DCE941271D3 /* Pods-FlickerNumber-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerNumber-Private.xcconfig"; sourceTree = "<group>"; };
+		59CFD973864CE1218D44548B /* FaceppTrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppTrainer.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppTrainer.h; sourceTree = "<group>"; };
+		5B956F2ED1253B631837DE10 /* FaceppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppInfo.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppInfo.m; sourceTree = "<group>"; };
+		5BE2F97BEBC22B32D0E79091 /* Pods-PEPhotoCropEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PEPhotoCropEditor-dummy.m"; sourceTree = "<group>"; };
+		5D35407866956E47236CD2A6 /* FaceppResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppResult.h; path = FaceppSDK_ARC/FaceppResult/FaceppResult.h; sourceTree = "<group>"; };
+		5E49399ED0758F0DBB3061C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		663D39373D9C924FD19B1A29 /* FaceppClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppClient.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppClient.h; sourceTree = "<group>"; };
+		68FE51A2BCA10F0C18832642 /* FaceppTrainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppTrainer.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppTrainer.m; sourceTree = "<group>"; };
+		746EAE7076DE11B7A1193227 /* Pods-FaceppSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceppSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		78249E3374581455D5C32D70 /* FaceppGrouping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppGrouping.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppGrouping.h; sourceTree = "<group>"; };
+		7896F126297CA11D7C3092DD /* MAOFlipTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipTransition.h; path = MAOFlipViewController/MAOFlipTransition.h; sourceTree = "<group>"; };
+		7D2D17D7E1CBB47F26D97ABF /* UIImage+PECrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PECrop.h"; path = "Lib/UIImage+PECrop.h"; sourceTree = "<group>"; };
+		7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8215BE1EE1A25376413F29B2 /* MAOPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOPanGestureRecognizer.m; path = MAOFlipViewController/MAOPanGestureRecognizer.m; sourceTree = "<group>"; };
+		83B01272834566B0176EF4D3 /* libPods-MAOFlipViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAOFlipViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84665C8FFA3893E821963BE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		872C8C6D678F1C55159E31DE /* Pods-PulsingHalo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PulsingHalo.xcconfig"; sourceTree = "<group>"; };
+		8D4769E52D2583C4139CC33E /* FaceppResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppResult.m; path = FaceppSDK_ARC/FaceppResult/FaceppResult.m; sourceTree = "<group>"; };
+		8DA7B4A8C3AA7ED8AD37AD68 /* MobClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobClick.h; path = "umsdk_IOS_analytics_no-idfa_v3.5.9/UMAnalytics_Sdk_3.5.9/MobClick.h"; sourceTree = "<group>"; };
+		93EE975D90C2AA363911E197 /* FaceppFaceset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppFaceset.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppFaceset.h; sourceTree = "<group>"; };
+		950989B5A281014F4CE91AE9 /* FaceppDetection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppDetection.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppDetection.h; sourceTree = "<group>"; };
+		96458B989C5978C8E88AD9B5 /* Pods-PulsingHalo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PulsingHalo-Private.xcconfig"; sourceTree = "<group>"; };
+		964BC2EC3EFDD85D145810BE /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		97C605036C3ADA65D51E32A1 /* FaceppError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppError.m; path = FaceppSDK_ARC/FaceppResult/FaceppError.m; sourceTree = "<group>"; };
+		980F178E6758CDEBC80D4207 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		9BA823ED761D3273FC0853F1 /* FaceppRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppRecognition.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppRecognition.h; sourceTree = "<group>"; };
+		A9A7ED3D565F1FDC0D5EC267 /* Pods-FlickerNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlickerNumber-dummy.m"; sourceTree = "<group>"; };
+		B1E1ABD5CF37239480859230 /* PEResizeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PEResizeControl.m; path = Lib/PEResizeControl.m; sourceTree = "<group>"; };
+		B486D485A6690EE84D699F21 /* libPods-PEPhotoCropEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PEPhotoCropEditor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60E2F49B629DD05D247FFFE /* Pods-PEPhotoCropEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PEPhotoCropEditor-prefix.pch"; sourceTree = "<group>"; };
+		B891234C25F5ECABA88B70DA /* FaceppClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppClient.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppClient.m; sourceTree = "<group>"; };
+		B948FC53F2D3939EC6C570F9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBFA4180F99F89C693B4D8A1 /* PECropRectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PECropRectView.h; path = Lib/PECropRectView.h; sourceTree = "<group>"; };
+		BD21E2718A134FC0B75DED62 /* FaceppAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppAPI.m; path = FaceppSDK_ARC/FaceppAPI.m; sourceTree = "<group>"; };
+		BFA0B18D88706EAB44B027F3 /* UIImage+PECrop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PECrop.m"; path = "Lib/UIImage+PECrop.m"; sourceTree = "<group>"; };
+		C00BC79618FF919186BF7E61 /* Pods-MAOFlipViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAOFlipViewController-dummy.m"; sourceTree = "<group>"; };
+		C1DE1E8ABFE47979F32A434F /* PECropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PECropViewController.h; path = Lib/PECropViewController.h; sourceTree = "<group>"; };
+		C233A97AF93E1BD963FA55A7 /* libPods-FlickerNumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlickerNumber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BD6B048026684FC2F03D80 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3FB011C74B1352661C52309 /* PECropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PECropView.h; path = Lib/PECropView.h; sourceTree = "<group>"; };
+		C56099C68E9D77C6ACFE58BC /* Pods-FaceppSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaceppSDK-prefix.pch"; sourceTree = "<group>"; };
+		D1606B8745F67234F4A14980 /* MAOFlipInteraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipInteraction.m; path = MAOFlipViewController/MAOFlipInteraction.m; sourceTree = "<group>"; };
+		D1B75AD2D29131A229C547D2 /* Pods-FlickerNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlickerNumber-prefix.pch"; sourceTree = "<group>"; };
+		DA23FA2B20BB5A66568F6E7E /* Pods-PEPhotoCropEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PEPhotoCropEditor.xcconfig"; sourceTree = "<group>"; };
+		E0AD61BB70AF9D5CDE608EA8 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		E157480B8945C5E8C6306C3F /* PEResizeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PEResizeControl.h; path = Lib/PEResizeControl.h; sourceTree = "<group>"; };
+		E466EF7EC6E6A25EA998E003 /* Pods-MAOFlipViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAOFlipViewController.xcconfig"; sourceTree = "<group>"; };
+		ECEF977D19D1EAD55B21F59E /* PECropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PECropView.m; path = Lib/PECropView.m; sourceTree = "<group>"; };
+		EEA93850647D6612C230D87A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		EF81C97585760C56DDAE56A3 /* Pods-MAOFlipViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAOFlipViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		F376D298609F9FCF1D5E4660 /* FaceppRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppRecognition.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppRecognition.m; sourceTree = "<group>"; };
+		F4BEC0849F7D1843BDFFC9EB /* MAOFlipViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MAOFlipViewController.m; path = MAOFlipViewController/MAOFlipViewController.m; sourceTree = "<group>"; };
+		F78059C66B9EB3BBFAB7285E /* Pods-FlickerNumber.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlickerNumber.xcconfig"; sourceTree = "<group>"; };
+		F82B9FAEDE78F74B435C375A /* PEPhotoCropEditor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PEPhotoCropEditor.bundle; path = Resources/PEPhotoCropEditor.bundle; sourceTree = "<group>"; };
+		F8DD6070E2A1BDED97E9BA56 /* Pods-PulsingHalo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PulsingHalo-dummy.m"; sourceTree = "<group>"; };
+		FA9749EB82CFAE44A20A458A /* Pods-FaceppSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaceppSDK.xcconfig"; sourceTree = "<group>"; };
+		FAC53A1D8956623C9A6D86D9 /* MAOFlipViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOFlipViewController.h; path = MAOFlipViewController/MAOFlipViewController.h; sourceTree = "<group>"; };
+		FB8F8C8237D9C77E9D4C7B59 /* FaceppGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceppGroup.h; path = FaceppSDK_ARC/FaceppAPISource/FaceppGroup.h; sourceTree = "<group>"; };
+		FE8DD16CA24A6B7DB75C94A2 /* FaceppGrouping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FaceppGrouping.m; path = FaceppSDK_ARC/FaceppAPISource/FaceppGrouping.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3384B9D790F7D707523AF2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6CB3A6F726EAD695FFAED0 /* Foundation.framework in Frameworks */,
+				B507BA014938C78358BAC94C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DC2A0C271E1F28F7400174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AD99BE48D0FF9B90484C23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C77C1EB8F4DABE58B31F815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7A823DFA564B9E0662DB0C /* AVFoundation.framework in Frameworks */,
+				6123FF3F454FCFCB64BF63A6 /* Foundation.framework in Frameworks */,
+				4E29F1342816CBDDB482E909 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A9A79C2D77AAAFEB2BFBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08E65509BDF5879D31B3580 /* Foundation.framework in Frameworks */,
+				6EB30DF93161731434A663FF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA52E30F94ECCCC6CAC6FCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C84CDEE214DFE02AED2CFD /* Foundation.framework in Frameworks */,
+				D68AA030B601CD7791FE0192 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30C0DC90AB1B0F1A81B7C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913F3DAE9A03B6A0CC296E30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10005DD7C211836B7E34FD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E10C2ABE3C0533C2F56FCF /* libPods.a */,
+				2FC69A2DB3CBD4BA9C232A67 /* libPods-FaceppSDK.a */,
+				C233A97AF93E1BD963FA55A7 /* libPods-FlickerNumber.a */,
+				83B01272834566B0176EF4D3 /* libPods-MAOFlipViewController.a */,
+				B486D485A6690EE84D699F21 /* libPods-PEPhotoCropEditor.a */,
+				1DF7374FB8E5F536186622C5 /* libPods-PulsingHalo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1326EA00ACB3E81D2E07F9D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9749EB82CFAE44A20A458A /* Pods-FaceppSDK.xcconfig */,
+				746EAE7076DE11B7A1193227 /* Pods-FaceppSDK-Private.xcconfig */,
+				3EBA8229E47420416CE05794 /* Pods-FaceppSDK-dummy.m */,
+				C56099C68E9D77C6ACFE58BC /* Pods-FaceppSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FaceppSDK";
+			sourceTree = "<group>";
+		};
+		187D96CCC92BD959A6755DB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F82B9FAEDE78F74B435C375A /* PEPhotoCropEditor.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		18CCBC7D65027630D045C63D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				980F178E6758CDEBC80D4207 /* AVFoundation.framework */,
+				7DC5C3C6C643A79FBEEECF3C /* Foundation.framework */,
+				5E49399ED0758F0DBB3061C3 /* QuartzCore.framework */,
+				84665C8FFA3893E821963BE3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1DA1D272BD3338FA07E177DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F78059C66B9EB3BBFAB7285E /* Pods-FlickerNumber.xcconfig */,
+				58072FA0CD785DCE941271D3 /* Pods-FlickerNumber-Private.xcconfig */,
+				A9A7ED3D565F1FDC0D5EC267 /* Pods-FlickerNumber-dummy.m */,
+				D1B75AD2D29131A229C547D2 /* Pods-FlickerNumber-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FlickerNumber";
+			sourceTree = "<group>";
+		};
+		44C5506C8AF445D4E864459E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4B593B07EBA07F21871C418 /* FaceppSDK */,
+				652CAAFA1C2B0D4F0BB71D4A /* FlickerNumber */,
+				D4660FF5FEEA3A4A0B7AE480 /* MAOFlipViewController */,
+				80CC9CE06F31B47538CA8EA9 /* PEPhotoCropEditor */,
+				71C0F1668C8AEC77B80AFA2C /* PulsingHalo */,
+				CD2403B20E81BA3D70D27E7F /* UMengAnalytics-NO-IDFA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61410F17770A394D265A4B9B = {
+			isa = PBXGroup;
+			children = (
+				B948FC53F2D3939EC6C570F9 /* Podfile */,
+				EAFF1A8541419A3F22A6D771 /* Frameworks */,
+				44C5506C8AF445D4E864459E /* Pods */,
+				10005DD7C211836B7E34FD3E /* Products */,
+				92E00FD40F4BC833507AF224 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		652CAAFA1C2B0D4F0BB71D4A /* FlickerNumber */ = {
+			isa = PBXGroup;
+			children = (
+				567883ABC7D63F905B7324D4 /* UILabel+FlickerNumber.h */,
+				36261120B320F589E168A1FF /* UILabel+FlickerNumber.m */,
+				1DA1D272BD3338FA07E177DF /* Support Files */,
+			);
+			path = FlickerNumber;
+			sourceTree = "<group>";
+		};
+		67EED007952A3252B20210AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E466EF7EC6E6A25EA998E003 /* Pods-MAOFlipViewController.xcconfig */,
+				EF81C97585760C56DDAE56A3 /* Pods-MAOFlipViewController-Private.xcconfig */,
+				C00BC79618FF919186BF7E61 /* Pods-MAOFlipViewController-dummy.m */,
+				1BE15C2364ED240E1800BBF0 /* Pods-MAOFlipViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MAOFlipViewController";
+			sourceTree = "<group>";
+		};
+		71C0F1668C8AEC77B80AFA2C /* PulsingHalo */ = {
+			isa = PBXGroup;
+			children = (
+				22DE54A860BBA869F6A07DBC /* PulsingHaloLayer.h */,
+				0F39F148697A4716459CD9D7 /* PulsingHaloLayer.m */,
+				CB62C689FFBC3BB59F6A6D4E /* Support Files */,
+			);
+			path = PulsingHalo;
+			sourceTree = "<group>";
+		};
+		80CC9CE06F31B47538CA8EA9 /* PEPhotoCropEditor */ = {
+			isa = PBXGroup;
+			children = (
+				BBFA4180F99F89C693B4D8A1 /* PECropRectView.h */,
+				34A47D86D113FBF0C6852F48 /* PECropRectView.m */,
+				C3FB011C74B1352661C52309 /* PECropView.h */,
+				ECEF977D19D1EAD55B21F59E /* PECropView.m */,
+				C1DE1E8ABFE47979F32A434F /* PECropViewController.h */,
+				50ED53545007B31751ED28BD /* PECropViewController.m */,
+				E157480B8945C5E8C6306C3F /* PEResizeControl.h */,
+				B1E1ABD5CF37239480859230 /* PEResizeControl.m */,
+				7D2D17D7E1CBB47F26D97ABF /* UIImage+PECrop.h */,
+				BFA0B18D88706EAB44B027F3 /* UIImage+PECrop.m */,
+				187D96CCC92BD959A6755DB3 /* Resources */,
+				D8CAEB800DC0B52B16B380DD /* Support Files */,
+			);
+			path = PEPhotoCropEditor;
+			sourceTree = "<group>";
+		};
+		8EDE648EDAACFC3BE994B0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D777C9D07F29139F8591F81 /* Pods-acknowledgements.markdown */,
+				C3BD6B048026684FC2F03D80 /* Pods-acknowledgements.plist */,
+				964BC2EC3EFDD85D145810BE /* Pods-dummy.m */,
+				50A77887246AA629E4E9F2F6 /* Pods-environment.h */,
+				E0AD61BB70AF9D5CDE608EA8 /* Pods-resources.sh */,
+				EEA93850647D6612C230D87A /* Pods.debug.xcconfig */,
+				07B7938592A0463F63E653C3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		92E00FD40F4BC833507AF224 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EDE648EDAACFC3BE994B0CD /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4B593B07EBA07F21871C418 /* FaceppSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0238EE03FFBABAC5B5EDEFC9 /* FaceppAPI.h */,
+				BD21E2718A134FC0B75DED62 /* FaceppAPI.m */,
+				663D39373D9C924FD19B1A29 /* FaceppClient.h */,
+				B891234C25F5ECABA88B70DA /* FaceppClient.m */,
+				950989B5A281014F4CE91AE9 /* FaceppDetection.h */,
+				52730ECD820CFAEEAEBF9196 /* FaceppDetection.m */,
+				22F70F6E0CDFD1D155509BCD /* FaceppError.h */,
+				97C605036C3ADA65D51E32A1 /* FaceppError.m */,
+				93EE975D90C2AA363911E197 /* FaceppFaceset.h */,
+				25C2B8914BBDF3186FD702CF /* FaceppFaceset.m */,
+				FB8F8C8237D9C77E9D4C7B59 /* FaceppGroup.h */,
+				48BB1FFBCDAF10D9885BCECA /* FaceppGroup.m */,
+				78249E3374581455D5C32D70 /* FaceppGrouping.h */,
+				FE8DD16CA24A6B7DB75C94A2 /* FaceppGrouping.m */,
+				272CBFE4A979F55DF1D7F983 /* FaceppInfo.h */,
+				5B956F2ED1253B631837DE10 /* FaceppInfo.m */,
+				50E1EE04678090E3D8619094 /* FaceppPerson.h */,
+				57EC7993542C91600334939E /* FaceppPerson.m */,
+				9BA823ED761D3273FC0853F1 /* FaceppRecognition.h */,
+				F376D298609F9FCF1D5E4660 /* FaceppRecognition.m */,
+				5D35407866956E47236CD2A6 /* FaceppResult.h */,
+				8D4769E52D2583C4139CC33E /* FaceppResult.m */,
+				59CFD973864CE1218D44548B /* FaceppTrainer.h */,
+				68FE51A2BCA10F0C18832642 /* FaceppTrainer.m */,
+				1326EA00ACB3E81D2E07F9D0 /* Support Files */,
+			);
+			path = FaceppSDK;
+			sourceTree = "<group>";
+		};
+		CB62C689FFBC3BB59F6A6D4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				872C8C6D678F1C55159E31DE /* Pods-PulsingHalo.xcconfig */,
+				96458B989C5978C8E88AD9B5 /* Pods-PulsingHalo-Private.xcconfig */,
+				F8DD6070E2A1BDED97E9BA56 /* Pods-PulsingHalo-dummy.m */,
+				0F7FB82140B099659312CA80 /* Pods-PulsingHalo-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PulsingHalo";
+			sourceTree = "<group>";
+		};
+		CD2403B20E81BA3D70D27E7F /* UMengAnalytics-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7B4A8C3AA7ED8AD37AD68 /* MobClick.h */,
+			);
+			path = "UMengAnalytics-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		D4660FF5FEEA3A4A0B7AE480 /* MAOFlipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5284E9D9AF8EAD4776934760 /* MAOFlipInteraction.h */,
+				D1606B8745F67234F4A14980 /* MAOFlipInteraction.m */,
+				7896F126297CA11D7C3092DD /* MAOFlipTransition.h */,
+				3B51224EB634FBD310092FFA /* MAOFlipTransition.m */,
+				FAC53A1D8956623C9A6D86D9 /* MAOFlipViewController.h */,
+				F4BEC0849F7D1843BDFFC9EB /* MAOFlipViewController.m */,
+				0C74DAE3A212F8C12D2AB3B9 /* MAOPanGestureRecognizer.h */,
+				8215BE1EE1A25376413F29B2 /* MAOPanGestureRecognizer.m */,
+				67EED007952A3252B20210AC /* Support Files */,
+			);
+			path = MAOFlipViewController;
+			sourceTree = "<group>";
+		};
+		D8CAEB800DC0B52B16B380DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA23FA2B20BB5A66568F6E7E /* Pods-PEPhotoCropEditor.xcconfig */,
+				4562B8AF425B8E0259358F40 /* Pods-PEPhotoCropEditor-Private.xcconfig */,
+				5BE2F97BEBC22B32D0E79091 /* Pods-PEPhotoCropEditor-dummy.m */,
+				B60E2F49B629DD05D247FFFE /* Pods-PEPhotoCropEditor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PEPhotoCropEditor";
+			sourceTree = "<group>";
+		};
+		EAFF1A8541419A3F22A6D771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CCBC7D65027630D045C63D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3327525F4692E245B137523F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F999639B944055B12E39F3 /* FaceppAPI.h in Headers */,
+				4CE5729A9D57138AECFEEEBB /* FaceppClient.h in Headers */,
+				B5559B1E54A39ECC6C54CE6E /* FaceppDetection.h in Headers */,
+				B532C64B580AEC3DFB923C74 /* FaceppError.h in Headers */,
+				29695C876B5813A03338CC94 /* FaceppFaceset.h in Headers */,
+				4F8B83A919716DF9878623B9 /* FaceppGroup.h in Headers */,
+				B22C72C4216F0A670A754F69 /* FaceppGrouping.h in Headers */,
+				3CE5EC6D625BFBD2EF72311A /* FaceppInfo.h in Headers */,
+				19E1215F11EDF900682B4449 /* FaceppPerson.h in Headers */,
+				CC362A63DF801540EEF1C3F4 /* FaceppRecognition.h in Headers */,
+				1D833738E992EA9F17C5587C /* FaceppResult.h in Headers */,
+				F14DE70E581BBCA935AC9049 /* FaceppTrainer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D537B2C87B3AE34A6E359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8739AAF62B7E3CED1951A68B /* MAOFlipInteraction.h in Headers */,
+				CAF68B86D95F9308C355B086 /* MAOFlipTransition.h in Headers */,
+				A54AE8021A3B4992B20A3FE8 /* MAOFlipViewController.h in Headers */,
+				8C29A16B009907BFD1B403B2 /* MAOPanGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770684EB79F0E7531B61B7B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D5C567D358CA083B8AF84D /* PulsingHaloLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F51CEBE1F2A25EDD5B474B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FCE93F992A8368CFE7E8EA /* UILabel+FlickerNumber.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A610D469EF94B2CD2B791697 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593DED8FB93ADC13A8103B52 /* PECropRectView.h in Headers */,
+				99FBB904AE53A1C701919203 /* PECropView.h in Headers */,
+				92A1CCD769E53061B4C238E5 /* PECropViewController.h in Headers */,
+				C823C5286ECA3B7D8E7BD28D /* PEResizeControl.h in Headers */,
+				488B79D98BAE4856BAE24EED /* UIImage+PECrop.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A5BB50B03920F98D274B842 /* Pods-PEPhotoCropEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B4CB314B4D5EE1D49D27AD /* Build configuration list for PBXNativeTarget "Pods-PEPhotoCropEditor" */;
+			buildPhases = (
+				EDD50E9261F7FB4833B48A87 /* Sources */,
+				8C77C1EB8F4DABE58B31F815 /* Frameworks */,
+				A610D469EF94B2CD2B791697 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PEPhotoCropEditor";
+			productName = "Pods-PEPhotoCropEditor";
+			productReference = B486D485A6690EE84D699F21 /* libPods-PEPhotoCropEditor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		117711D5E2AAEFE3CBCAF010 /* Pods-FlickerNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BA242505F95BC4F964961 /* Build configuration list for PBXNativeTarget "Pods-FlickerNumber" */;
+			buildPhases = (
+				D496AF50EE086D64745D2B07 /* Sources */,
+				92A9A79C2D77AAAFEB2BFBE2 /* Frameworks */,
+				7F51CEBE1F2A25EDD5B474B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlickerNumber";
+			productName = "Pods-FlickerNumber";
+			productReference = C233A97AF93E1BD963FA55A7 /* libPods-FlickerNumber.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		30099DB74BBF847E0359CBFA /* Pods-PulsingHalo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0D800106B855F5DEBCF510 /* Build configuration list for PBXNativeTarget "Pods-PulsingHalo" */;
+			buildPhases = (
+				CC78E985DA1478F7BD6DF11D /* Sources */,
+				3384B9D790F7D707523AF2BE /* Frameworks */,
+				770684EB79F0E7531B61B7B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PulsingHalo";
+			productName = "Pods-PulsingHalo";
+			productReference = 1DF7374FB8E5F536186622C5 /* libPods-PulsingHalo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		415AB028025099703232CD53 /* Pods-MAOFlipViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA657B2B618320EA5785F80 /* Build configuration list for PBXNativeTarget "Pods-MAOFlipViewController" */;
+			buildPhases = (
+				1E59E6671F53EC1D8AF956D0 /* Sources */,
+				F30C0DC90AB1B0F1A81B7C8E /* Frameworks */,
+				609D537B2C87B3AE34A6E359 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MAOFlipViewController";
+			productName = "Pods-MAOFlipViewController";
+			productReference = 83B01272834566B0176EF4D3 /* libPods-MAOFlipViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5ABCDF4213711A36B4B1BDE3 /* Pods-FaceppSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBD1AECA45920FCC53E5056 /* Build configuration list for PBXNativeTarget "Pods-FaceppSDK" */;
+			buildPhases = (
+				E9D02FAE73B27D6313BBFC4D /* Sources */,
+				AA52E30F94ECCCC6CAC6FCEC /* Frameworks */,
+				3327525F4692E245B137523F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FaceppSDK";
+			productName = "Pods-FaceppSDK";
+			productReference = 2FC69A2DB3CBD4BA9C232A67 /* libPods-FaceppSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3C21E0649B40E321E183C4A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0B6944F022E101729FD3C7 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				4B2A9A2186E85C7042FC9D7C /* Sources */,
+				60DC2A0C271E1F28F7400174 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0FBCDE82007DDEC3E562AE1 /* PBXTargetDependency */,
+				C37E3E1FD55CD38861000556 /* PBXTargetDependency */,
+				97F80D6B945ED8F5A1165AE9 /* PBXTargetDependency */,
+				5DB9D818432143F0F25C80B4 /* PBXTargetDependency */,
+				D12573A754EB540C50B24159 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 24E10C2ABE3C0533C2F56FCF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19EC6D2BE9866A2596EEBE83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 3578956F436F8CF82B150278 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61410F17770A394D265A4B9B;
+			productRefGroup = 10005DD7C211836B7E34FD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3C21E0649B40E321E183C4A /* Pods */,
+				5ABCDF4213711A36B4B1BDE3 /* Pods-FaceppSDK */,
+				117711D5E2AAEFE3CBCAF010 /* Pods-FlickerNumber */,
+				415AB028025099703232CD53 /* Pods-MAOFlipViewController */,
+				0A5BB50B03920F98D274B842 /* Pods-PEPhotoCropEditor */,
+				30099DB74BBF847E0359CBFA /* Pods-PulsingHalo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E59E6671F53EC1D8AF956D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFA1E42A701A3B851CAAA38 /* MAOFlipInteraction.m in Sources */,
+				ED6A8A786BFEEC7E4C09DFFC /* MAOFlipTransition.m in Sources */,
+				5295D6C2DA5C67EEDC5D2C8A /* MAOFlipViewController.m in Sources */,
+				F0964A0DDA21EE498B79C6AC /* MAOPanGestureRecognizer.m in Sources */,
+				BDFDC8584C9980489010A780 /* Pods-MAOFlipViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2A9A2186E85C7042FC9D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7387A5DFFC5EBC230C5080F /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC78E985DA1478F7BD6DF11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B36EEE75264F3B2B25C112F /* Pods-PulsingHalo-dummy.m in Sources */,
+				A72A43881CEFF9E521C57E06 /* PulsingHaloLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D496AF50EE086D64745D2B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F2CE29FF324426D6F452CF /* Pods-FlickerNumber-dummy.m in Sources */,
+				EA1A250FBBCE25A9586C1F92 /* UILabel+FlickerNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D02FAE73B27D6313BBFC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401A09A754AD5D8B39EC50D5 /* FaceppAPI.m in Sources */,
+				58D0B605A5580E7BD0F1E0CD /* FaceppClient.m in Sources */,
+				47A959A113EB0ED0E3E3E600 /* FaceppDetection.m in Sources */,
+				1F3518D185BCD5FF569BD98F /* FaceppError.m in Sources */,
+				5CA0EF850D505221D9098B2E /* FaceppFaceset.m in Sources */,
+				D954CA0B3F57DC4ABC63037F /* FaceppGroup.m in Sources */,
+				F76D63915CC1EBF07421A85E /* FaceppGrouping.m in Sources */,
+				7222FCB5FB997619287EF7ED /* FaceppInfo.m in Sources */,
+				FD83E0A60E3385B58E1AFEAC /* FaceppPerson.m in Sources */,
+				568D0E343B8ECED4D39B6630 /* FaceppRecognition.m in Sources */,
+				26F06CD0080FFA15D92A5708 /* FaceppResult.m in Sources */,
+				B37BF6EF3C74271B9264D9A3 /* FaceppTrainer.m in Sources */,
+				589333E0986CA6AF4ED906E4 /* Pods-FaceppSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD50E9261F7FB4833B48A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139EE88F007416BFF38A3322 /* PECropRectView.m in Sources */,
+				4A1B0B95F126CAAB95D7AA53 /* PECropView.m in Sources */,
+				15D3DEE0140A94D1DCABCBC3 /* PECropViewController.m in Sources */,
+				2838625B2494346A5EFD2CE9 /* PEResizeControl.m in Sources */,
+				F6DB94A75CA134532609A287 /* Pods-PEPhotoCropEditor-dummy.m in Sources */,
+				B79753C4A0BB3A586DA16D42 /* UIImage+PECrop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB9D818432143F0F25C80B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PEPhotoCropEditor";
+			target = 0A5BB50B03920F98D274B842 /* Pods-PEPhotoCropEditor */;
+			targetProxy = 13374BA5A165D43D6A0E1917 /* PBXContainerItemProxy */;
+		};
+		97F80D6B945ED8F5A1165AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MAOFlipViewController";
+			target = 415AB028025099703232CD53 /* Pods-MAOFlipViewController */;
+			targetProxy = 729082BC020D5349175A973D /* PBXContainerItemProxy */;
+		};
+		C0FBCDE82007DDEC3E562AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FaceppSDK";
+			target = 5ABCDF4213711A36B4B1BDE3 /* Pods-FaceppSDK */;
+			targetProxy = CA268C8C46812F75C3257A0A /* PBXContainerItemProxy */;
+		};
+		C37E3E1FD55CD38861000556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FlickerNumber";
+			target = 117711D5E2AAEFE3CBCAF010 /* Pods-FlickerNumber */;
+			targetProxy = 79D3370E1084EB1FBE1DACBA /* PBXContainerItemProxy */;
+		};
+		D12573A754EB540C50B24159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PulsingHalo";
+			target = 30099DB74BBF847E0359CBFA /* Pods-PulsingHalo */;
+			targetProxy = D2D57812B96920240ECA3D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00ABC33C6BAF5364E9718D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		243C4F7823743B704405E3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4562B8AF425B8E0259358F40 /* Pods-PEPhotoCropEditor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PEPhotoCropEditor/Pods-PEPhotoCropEditor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D76BBCD2FAAA0FA853E9BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF81C97585760C56DDAE56A3 /* Pods-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C3081771DACEF9D34F807C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58072FA0CD785DCE941271D3 /* Pods-FlickerNumber-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FlickerNumber/Pods-FlickerNumber-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C80EF9FF43B66ECDA47F196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF81C97585760C56DDAE56A3 /* Pods-MAOFlipViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MAOFlipViewController/Pods-MAOFlipViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A1D95C301BAD8A2845251B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96458B989C5978C8E88AD9B5 /* Pods-PulsingHalo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PulsingHalo/Pods-PulsingHalo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B55CA73BA468BAD88264AD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA93850647D6612C230D87A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA2C5BBA85B002F4634F2E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BAA8D1EDA511C647A580ED82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B7938592A0463F63E653C3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C02A34BDD9B53990D32DF9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746EAE7076DE11B7A1193227 /* Pods-FaceppSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FaceppSDK/Pods-FaceppSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAE3766F0103B0ADE1F33BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96458B989C5978C8E88AD9B5 /* Pods-PulsingHalo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PulsingHalo/Pods-PulsingHalo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D71E4D89733E490D4B0CEA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746EAE7076DE11B7A1193227 /* Pods-FaceppSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FaceppSDK/Pods-FaceppSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E19D311A4E357A90C7DE720D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58072FA0CD785DCE941271D3 /* Pods-FlickerNumber-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FlickerNumber/Pods-FlickerNumber-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E560034CEED56834136DE9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4562B8AF425B8E0259358F40 /* Pods-PEPhotoCropEditor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PEPhotoCropEditor/Pods-PEPhotoCropEditor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179BA242505F95BC4F964961 /* Build configuration list for PBXNativeTarget "Pods-FlickerNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19D311A4E357A90C7DE720D /* Debug */,
+				6C3081771DACEF9D34F807C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBD1AECA45920FCC53E5056 /* Build configuration list for PBXNativeTarget "Pods-FaceppSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A34BDD9B53990D32DF9D0 /* Debug */,
+				D71E4D89733E490D4B0CEA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3578956F436F8CF82B150278 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2C5BBA85B002F4634F2E89 /* Debug */,
+				00ABC33C6BAF5364E9718D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0D800106B855F5DEBCF510 /* Build configuration list for PBXNativeTarget "Pods-PulsingHalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1D95C301BAD8A2845251B4 /* Debug */,
+				CAE3766F0103B0ADE1F33BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA657B2B618320EA5785F80 /* Build configuration list for PBXNativeTarget "Pods-MAOFlipViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C80EF9FF43B66ECDA47F196 /* Debug */,
+				3D76BBCD2FAAA0FA853E9BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B4CB314B4D5EE1D49D27AD /* Build configuration list for PBXNativeTarget "Pods-PEPhotoCropEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E560034CEED56834136DE9B0 /* Debug */,
+				243C4F7823743B704405E3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0B6944F022E101729FD3C7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55CA73BA468BAD88264AD8A /* Debug */,
+				BAA8D1EDA511C647A580ED82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19EC6D2BE9866A2596EEBE83 /* Project object */;
+}
