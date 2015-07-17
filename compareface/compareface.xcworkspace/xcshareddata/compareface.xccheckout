@@ -12,20 +12,24 @@
 	<dict>
 		<key>45214C400375DF02D4C716075D6DD73063FADEEB</key>
 		<string>https://github.com/xiaomochn/compare-face.git</string>
+		<key>8CA6D455AC5944FF90A7BE53972597007B5E728F</key>
+		<string>https://github.com/xiaomochn/mychildren.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>compareface/compareface.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>45214C400375DF02D4C716075D6DD73063FADEEB</key>
+		<string>../../../compare-face</string>
+		<key>8CA6D455AC5944FF90A7BE53972597007B5E728F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/xiaomochn/compare-face.git</string>
+	<string>https://github.com/xiaomochn/mychildren.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>45214C400375DF02D4C716075D6DD73063FADEEB</string>
+	<string>8CA6D455AC5944FF90A7BE53972597007B5E728F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>45214C400375DF02D4C716075D6DD73063FADEEB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>compare-face</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8CA6D455AC5944FF90A7BE53972597007B5E728F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mychildren</string>
 		</dict>
 	</array>
 </dict>
