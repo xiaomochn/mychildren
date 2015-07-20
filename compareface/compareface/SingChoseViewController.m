@@ -15,6 +15,7 @@
 #import "UILabel+FlickerNumber.h"
 #import "PECropViewController.h"
 #import "MobClick.h"
+#import <math.h>
 @interface SingChoseViewController ()<PECropViewControllerDelegate>
 @property(nonatomic,strong) LTBounceSheet *sheet;
 @property(nonatomic,strong) NSMutableArray *scoredetil ;
@@ -414,17 +415,17 @@
                     }
                  
                      _score=[self getScoreWithTrueScore:(int)([[resultcoompare content][@"similarity"] doubleValue])];
-                       componentstr=[NSString stringWithFormat:@"你们看起来最像的地方是%@",maxkey];
-                   
+                       componentstr=[NSString stringWithFormat:@"你们看起来最像的地方是%@，你们相差%d岁",maxkey,abs([ face1[@"attribute"][@"age"][@"value"] integerValue]-[ face2[@"attribute"][@"age"][@"value"] integerValue])];
                   
+                
                     [resultLable setText:componentstr];
                     //                    [scoreLable dd_setNumber:@(30)];
                     
                     
                     if ((int)([[resultcoompare content][@"similarity"] doubleValue])>95) {
-                     
                         [resultLable setText:@"不要说你们是双胞胎哦..."];
                     }
+                    
                      [scoreLable setText:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:_score]]];
                      [scoreLable setHidden:NO];
                   
