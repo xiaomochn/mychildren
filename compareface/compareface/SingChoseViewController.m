@@ -270,12 +270,12 @@
     [theView.layer renderInContext:context];
   UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    id<ISSContent> publishContent = [ShareSDK content:[NSString stringWithFormat:@"夫妻相权威认证，我们的夫妻相匹配指数为%d",_score]
-                                       defaultContent:@"夫妻相"
+    id<ISSContent> publishContent = [ShareSDK content:[NSString stringWithFormat:@"亲子鉴定，我们的基因相似率为％d",_score]
+                                       defaultContent:@"亲子鉴定"
                                                 image:[ShareSDK pngImageWithImage:firstImage]
-                                                title:@"夫妻相"
-                                                  url:@"https://itunes.apple.com/us/app/fu-qi-xiang-biao-bai-shen-qi/id1015265049?l=zh&ls=1&mt=8"
-                                          description:[NSString stringWithFormat:@"夫妻相权威认证，我们的夫妻相匹配指数为%d",_score]
+                                                title:@"亲子鉴定"
+                                                  url:@"https://itunes.apple.com/us/app/qin-zi-jian-ding/id1021182222?l=zh&ls=1&mt=8"
+                                          description:[NSString stringWithFormat:@"我和孩子的基因相似率为%d％，敢试试你和你家孩子么",_score]
                                             mediaType:SSPublishContentMediaTypeNews];
     //创建弹出菜单容器
     id<ISSContainer> container = [ShareSDK container];
@@ -413,7 +413,6 @@
                         maxscore=[[[resultcoompare content][@"component_similarity"] objectForKey:@"eyebrow"] doubleValue];
                         maxkey=@"眼睫毛";
                     }
-                 
                      _score=[self getScoreWithTrueScore:(int)([[resultcoompare content][@"similarity"] doubleValue])];
                        componentstr=[NSString stringWithFormat:@"你们看起来最像的地方是%@，你们相差%d岁",maxkey,abs([ face1[@"attribute"][@"age"][@"value"] integerValue]-[ face2[@"attribute"][@"age"][@"value"] integerValue])];
                   
